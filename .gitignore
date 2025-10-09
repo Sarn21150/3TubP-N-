@@ -1,4 +1,27 @@
+# node_modules/
+# .env.local
+# .next/
+# dist/
+
+# Node modules
 node_modules/
-.env.local
+
+# Next.js build outputs
 .next/
+out/
 dist/
+
+# Env files
+.env
+.env.*
+!.env.example  # อนุญาตให้เก็บตัวอย่าง env ได้ (ไม่มี key จริง)
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
